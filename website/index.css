@@ -1,0 +1,175 @@
+
+html{
+    border: 3px solid orange;
+    scroll-behavior: smooth;
+}
+body{
+    
+    background: black;
+    padding: 1em;
+}
+.nav{
+    display: flex;
+}
+.side{
+    
+    height: 400px;
+    width: 150px;
+    background: rgb(255, 166, 0);
+    border-radius: 20px;
+    border: 1px solid white;
+    line-height: 60px;
+    box-shadow: 7px 7px 7px  rgb(255, 153, 0);
+
+}
+
+.ls{
+    color: rgb(0, 0, 0);
+
+}
+li:hover{
+    color: rgb(255, 10, 10);
+}
+h1{
+    color: rgb(240, 172, 47);
+}
+p{
+    color: white;
+    font-size: 20px;
+}
+.space{
+    width: 150px;
+}
+.mid{
+    line-height: 40px;
+}
+.photo{
+    height: 300px;
+    width: 300px;
+}
+
+.nav2{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    line-height: 40px;
+    font-size: 20px;
+}
+.ed{
+    color: white;
+}
+h2{
+    color: orange;
+}
+a{
+    text-decoration: none;
+}
+h3{
+    color: orange;
+}
+.u{
+    color: white;
+}
+.sk{
+    width: 200px;
+    text-align: center;
+    
+}
+.nav3{
+    display: flex;
+}
+.sname{
+    color: white;
+}
+.name{
+    justify-content: top;
+    line-height: 75px;
+    color: white;
+}
+.para{
+    color: orange;
+    font-size: 30px;
+    font-weight: bold;
+}
+.photo{
+    border-bottom: 3px solid orange;
+    border-right: 3px solid orange;
+    box-shadow: 5px 5px 5px  rgb(255, 210, 9);
+}
+.image{
+    height: 100px;
+    width: 100px;
+}
+.nav4{
+    display: inline-block;
+}
+.project{
+    font-weight: bold;
+    color: rgb(255, 0, 200);
+    font-style: italic;
+    
+}
+.nav4{
+    display: flex;
+    padding: 40px;
+}
+.nav5{
+    display: flex;
+    padding: 40px;
+}
+.d{
+    height: 150px;
+    width:250px;
+    border: 5px solid;
+    border-image: 
+    linear-gradient(
+        red,
+        green,
+        blue
+    ) 1;
+    animation: rotate
+    2.5s
+    ease-in
+    infinite
+
+}
+@keyframes rotate{
+    50%{
+        border-image: 
+        linear-gradient(
+            360deg,
+            red,
+            green,
+            blue
+        ) 1;
+    }
+}
+
+
+.e{
+
+    height: 150px;
+    width:250px;
+    border: 5px solid;
+    border-image: 
+    linear-gradient(
+        red,
+        green,
+        blue
+    ) 1;
+    animation: rotate
+    2.5s
+    ease-in
+    infinite
+}
+@keyframes rotate{
+    50%{
+        border-image: 
+        linear-gradient(
+            360deg,
+            red,
+            greenyellow,
+            blue
+        ) 1;
+    }
+}
